@@ -1,0 +1,4 @@
+res://levels/level_01.tscn
+res://player.tscn
+res://player/player.tscn
+res://player/player.gd
