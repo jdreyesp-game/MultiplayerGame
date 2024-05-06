@@ -1,165 +1,165 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714812250
-icon.svg::CompressedTexture2D::3245725711737571871::1714810516::1714810519::1::::<><>::
-player.tscn::PackedScene::5590390091802830885::1714812287::0::1::::<><>::uid://cln1ubxiy43oh::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_000.png<>uid://n7mnms3u3wjr::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_001.png<>uid://k2rlkgmf0qqf::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_002.png<>uid://cxmvprctwqect::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_003.png<>uid://bn4vyw1tvbcfy::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_004.png<>uid://bghjle3m5kfyk::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_005.png<>uid://btiq78hksne3e::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_000.png<>uid://c4wrx32bcp5na::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_001.png<>uid://dfjugvfb2u86x::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_002.png<>uid://bk6xnw75aft36::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_003.png<>uid://b1v21v4uyx2ab::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_004.png<>uid://cpg3xbxy3my35::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_005.png<>uid://cijdeq4s63sbc::::res://art/characters/elf/idle/0_Dark_Elves_Idle_000.png<>uid://bkteqb4eah0qa::::res://art/characters/elf/idle/0_Dark_Elves_Idle_001.png<>uid://bpmqns4rq7i6y::::res://art/characters/elf/idle/0_Dark_Elves_Idle_002.png<>uid://vq5a1sisnh85::::res://art/characters/elf/idle/0_Dark_Elves_Idle_003.png<>uid://bic52uma20jil::::res://art/characters/elf/idle/0_Dark_Elves_Idle_004.png<>uid://b0bn4jbu6kaj1::::res://art/characters/elf/idle/0_Dark_Elves_Idle_005.png<>uid://nuekuvomd62b::::res://art/characters/elf/idle/0_Dark_Elves_Idle_006.png<>uid://d1hmes836ehpc::::res://art/characters/elf/idle/0_Dark_Elves_Idle_007.png<>uid://bwnw7xytiba40::::res://art/characters/elf/idle/0_Dark_Elves_Idle_008.png<>uid://bismuihjshd1t::::res://art/characters/elf/idle/0_Dark_Elves_Idle_009.png<>uid://6qscwkc5n2dc::::res://art/characters/elf/idle/0_Dark_Elves_Idle_010.png<>uid://cwxubw3rnrlrw::::res://art/characters/elf/idle/0_Dark_Elves_Idle_011.png<>uid://dw1lldpc4oyrq::::res://art/characters/elf/idle/0_Dark_Elves_Idle_012.png<>uid://bvrjl2da0odg3::::res://art/characters/elf/idle/0_Dark_Elves_Idle_013.png<>uid://bbde7uk4pareh::::res://art/characters/elf/idle/0_Dark_Elves_Idle_014.png<>uid://d1bjkcwfimqcn::::res://art/characters/elf/idle/0_Dark_Elves_Idle_015.png<>uid://b8vkkwnoxwyib::::res://art/characters/elf/idle/0_Dark_Elves_Idle_016.png<>uid://cdec6y5diqr24::::res://art/characters/elf/idle/0_Dark_Elves_Idle_017.png<>uid://u8iq5q1t542k::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_000.png<>uid://1jxih3omnplt::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_001.png<>uid://bg6j36dnaqa3q::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_002.png<>uid://dj53sgsuhjs8y::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_003.png<>uid://bdyavl8jb5osq::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_004.png<>uid://bxqvlxtm0b4s8::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_005.png<>uid://r07okw4p4exi::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_000.png<>uid://bxja2hxgf0hku::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_001.png<>uid://bjtmx1ysh2qf4::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_002.png<>uid://bkmvc6l4rvu5v::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_003.png<>uid://lkbutps4vli4::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_004.png<>uid://cmblja8sum4ea::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_005.png<>uid://cap3ji30vpkpa::::res://art/characters/elf/walk/0_Dark_Elves_Walking_000.png<>uid://dl2whss56pv5b::::res://art/characters/elf/walk/0_Dark_Elves_Walking_001.png<>uid://bbpw7etipn578::::res://art/characters/elf/walk/0_Dark_Elves_Walking_002.png<>uid://dxg81r0w8cq3o::::res://art/characters/elf/walk/0_Dark_Elves_Walking_003.png<>uid://dxcj2pfbkbc2::::res://art/characters/elf/walk/0_Dark_Elves_Walking_004.png<>uid://c0km3uh7lyt4p::::res://art/characters/elf/walk/0_Dark_Elves_Walking_005.png<>uid://dakhxqux3pyny::::res://art/characters/elf/walk/0_Dark_Elves_Walking_006.png<>uid://dscr4r0esnaml::::res://art/characters/elf/walk/0_Dark_Elves_Walking_007.png<>uid://ddp6e1g42swwn::::res://art/characters/elf/walk/0_Dark_Elves_Walking_008.png<>uid://cqxxhjmjscb1x::::res://art/characters/elf/walk/0_Dark_Elves_Walking_009.png<>uid://b5rnqlnfbpeaj::::res://art/characters/elf/walk/0_Dark_Elves_Walking_010.png<>uid://c3k77bl7h8k83::::res://art/characters/elf/walk/0_Dark_Elves_Walking_011.png<>uid://dggp1g6ic4rd::::res://art/characters/elf/walk/0_Dark_Elves_Walking_012.png<>uid://dwlr6bfykskfp::::res://art/characters/elf/walk/0_Dark_Elves_Walking_013.png<>uid://dv6ipf3chsuy4::::res://art/characters/elf/walk/0_Dark_Elves_Walking_014.png<>uid://bt1nqranyldp8::::res://art/characters/elf/walk/0_Dark_Elves_Walking_015.png<>uid://bvx8dwwui31g3::::res://art/characters/elf/walk/0_Dark_Elves_Walking_016.png<>uid://c7gqj2o04sxlj::::res://art/characters/elf/walk/0_Dark_Elves_Walking_017.png<>uid://cvwj6xfth7mt2::::res://art/characters/elf/walk/0_Dark_Elves_Walking_018.png<>uid://cthx4nsid3vvu::::res://art/characters/elf/walk/0_Dark_Elves_Walking_019.png<>uid://d4h854o6jfsk6::::res://art/characters/elf/walk/0_Dark_Elves_Walking_020.png<>uid://bbthkjqiq33il::::res://art/characters/elf/walk/0_Dark_Elves_Walking_021.png<>uid://b771rxse6n114::::res://art/characters/elf/walk/0_Dark_Elves_Walking_022.png<>uid://c2r31n6lj0pks::::res://art/characters/elf/walk/0_Dark_Elves_Walking_023.png
-::res://art/::1714810552
-::res://art/backgrounds/::1714810553
-background_01.png::CompressedTexture2D::3019678118322707430::1714810551::1714810553::1::::<><>::
-background_02.png::CompressedTexture2D::3810226732136760820::1714810551::1714810553::1::::<><>::
-::res://art/characters/::1714810551
-::res://art/characters/character_marker/::1714810553
-Player Finder.png::CompressedTexture2D::1504954788881706945::1714810551::1714810553::1::::<><>::
-Player_Finder.png::CompressedTexture2D::2132703831188231701::1714810551::1714810553::1::::<><>::
-::res://art/characters/elf/::1714810551
-::res://art/characters/elf/double_jump_start/::1714810553
-0_Dark_Elves_Double Jump_000.png::CompressedTexture2D::5573370004347941243::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Double Jump_001.png::CompressedTexture2D::979267534045021115::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Double Jump_002.png::CompressedTexture2D::758679003405157885::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Double Jump_003.png::CompressedTexture2D::6413260044746200743::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Double Jump_004.png::CompressedTexture2D::3360061718327064706::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Double Jump_005.png::CompressedTexture2D::2822570740401204862::1714810551::1714810553::1::::<><>::
-::res://art/characters/elf/fall/::1714810553
-0_Dark_Elves_Falling Down_000.png::CompressedTexture2D::3737554096700525140::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Falling Down_001.png::CompressedTexture2D::6854808918027554858::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Falling Down_002.png::CompressedTexture2D::7530011834471478633::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Falling Down_003.png::CompressedTexture2D::3153725742914396939::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Falling Down_004.png::CompressedTexture2D::4256369489294816997::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Falling Down_005.png::CompressedTexture2D::5839801526720539798::1714810551::1714810553::1::::<><>::
-::res://art/characters/elf/idle/::1714810553
-0_Dark_Elves_Idle_000.png::CompressedTexture2D::5353121696464233916::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_001.png::CompressedTexture2D::3127803835578829308::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_002.png::CompressedTexture2D::3465021549532013494::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_003.png::CompressedTexture2D::1508818664048271268::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_004.png::CompressedTexture2D::2953930983565636023::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_005.png::CompressedTexture2D::4144047736532660428::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_006.png::CompressedTexture2D::954004331845913579::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_007.png::CompressedTexture2D::8999359374748013164::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_008.png::CompressedTexture2D::3958806319764772827::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_009.png::CompressedTexture2D::2985854983595416011::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_010.png::CompressedTexture2D::2209981845394816988::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_011.png::CompressedTexture2D::6365693940974206460::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_012.png::CompressedTexture2D::8757778144247274610::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_013.png::CompressedTexture2D::3896048341377478836::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_014.png::CompressedTexture2D::2463103741222074467::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_015.png::CompressedTexture2D::8986800813566907537::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_016.png::CompressedTexture2D::4746630660714023569::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Idle_017.png::CompressedTexture2D::4991843509965305431::1714810551::1714810553::1::::<><>::
-::res://art/characters/elf/jump/::1714810553
-0_Dark_Elves_Jump Loop_000.png::CompressedTexture2D::1472417248914530292::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Loop_001.png::CompressedTexture2D::1844900523130883117::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Loop_002.png::CompressedTexture2D::2872147544510941736::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Loop_003.png::CompressedTexture2D::7854625540396155898::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Loop_004.png::CompressedTexture2D::2646570411523484044::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Loop_005.png::CompressedTexture2D::4035090069980896081::1714810551::1714810553::1::::<><>::
-::res://art/characters/elf/jump_start/::1714810554
-0_Dark_Elves_Jump Start_000.png::CompressedTexture2D::1246788291139256478::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Start_001.png::CompressedTexture2D::4019392107064053916::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Start_002.png::CompressedTexture2D::3058114534446220047::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Start_003.png::CompressedTexture2D::3114361928115945337::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Start_004.png::CompressedTexture2D::792818512402967121::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Jump Start_005.png::CompressedTexture2D::5617855879685841052::1714810551::1714810554::1::::<><>::
-::res://art/characters/elf/walk/::1714810554
-0_Dark_Elves_Walking_000.png::CompressedTexture2D::4805523646245578894::1714810551::1714810554::1::::<><>::
-0_Dark_Elves_Walking_001.png::CompressedTexture2D::7988426779487355897::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_002.png::CompressedTexture2D::2488968352716608625::1714810551::1714810554::1::::<><>::
-0_Dark_Elves_Walking_003.png::CompressedTexture2D::8788042745242066598::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_004.png::CompressedTexture2D::258186166919576867::1714810551::1714810554::1::::<><>::
-0_Dark_Elves_Walking_005.png::CompressedTexture2D::6548985904770377445::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_006.png::CompressedTexture2D::7180372793181819338::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_007.png::CompressedTexture2D::8427874900695647467::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_008.png::CompressedTexture2D::7402684994486049201::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_009.png::CompressedTexture2D::5944753037009915871::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_010.png::CompressedTexture2D::4527998906329947777::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_011.png::CompressedTexture2D::6760772926945986526::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_012.png::CompressedTexture2D::223345262598859817::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_013.png::CompressedTexture2D::8727212376250659793::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_014.png::CompressedTexture2D::8697736306676772445::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_015.png::CompressedTexture2D::3774501321549834275::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_016.png::CompressedTexture2D::3909877296998094256::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_017.png::CompressedTexture2D::7032259615290094043::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_018.png::CompressedTexture2D::6292826423555122273::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_019.png::CompressedTexture2D::6122329030622755778::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_020.png::CompressedTexture2D::9211247941664259795::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_021.png::CompressedTexture2D::2496276079359703275::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_022.png::CompressedTexture2D::4700134004615604305::1714810551::1714810553::1::::<><>::
-0_Dark_Elves_Walking_023.png::CompressedTexture2D::6704781805076386714::1714810551::1714810552::1::::<><>::
-::res://art/characters/knight/::1714810551
-::res://art/characters/knight/fall/::1714810552
-0_Hell_Knight_Falling Down_000.png::CompressedTexture2D::3035133607936192914::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Falling Down_001.png::CompressedTexture2D::1620392575329788872::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Falling Down_002.png::CompressedTexture2D::8146993914898076656::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Falling Down_003.png::CompressedTexture2D::7074716957355900986::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Falling Down_004.png::CompressedTexture2D::1420605500288059284::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Falling Down_005.png::CompressedTexture2D::5304583762793544114::1714810551::1714810552::1::::<><>::
-::res://art/characters/knight/idle/::1714810552
-0_Hell_Knight_Idle_000.png::CompressedTexture2D::4283590624464005595::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_001.png::CompressedTexture2D::3193470818525752576::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_002.png::CompressedTexture2D::7892240328076409689::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_003.png::CompressedTexture2D::2979678922222704619::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_004.png::CompressedTexture2D::4605427552370314304::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_005.png::CompressedTexture2D::8971483191729344943::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_006.png::CompressedTexture2D::6325455728508956792::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_007.png::CompressedTexture2D::7192143945817049757::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_008.png::CompressedTexture2D::8365497838186826349::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_009.png::CompressedTexture2D::1513392045423436923::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_010.png::CompressedTexture2D::6209341308676761531::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_011.png::CompressedTexture2D::4590916644489020114::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_012.png::CompressedTexture2D::9066181148670033804::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_013.png::CompressedTexture2D::6968167101555557475::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_014.png::CompressedTexture2D::1563779447719311916::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_015.png::CompressedTexture2D::8009321504194556656::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_016.png::CompressedTexture2D::3639139923656979262::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Idle_017.png::CompressedTexture2D::8459187160369657143::1714810551::1714810552::1::::<><>::
-::res://art/characters/knight/jump/::1714810552
-0_Hell_Knight_Jump Loop_000.png::CompressedTexture2D::8075166202744917365::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Loop_001.png::CompressedTexture2D::6839553407435898415::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Loop_002.png::CompressedTexture2D::1826829503188584467::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Loop_003.png::CompressedTexture2D::4136545573615988347::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Loop_004.png::CompressedTexture2D::8326362873684219275::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Loop_005.png::CompressedTexture2D::5087614432235974::1714810551::1714810552::1::::<><>::
-::res://art/characters/knight/jump_start/::1714810553
-0_Hell_Knight_Jump Start_000.png::CompressedTexture2D::2865560888784699787::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Start_001.png::CompressedTexture2D::2270419585724041688::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Start_002.png::CompressedTexture2D::7375900629144591852::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Start_003.png::CompressedTexture2D::6947425726206599776::1714810551::1714810552::1::::<><>::
-0_Hell_Knight_Jump Start_004.png::CompressedTexture2D::6031489291763210439::1714810551::1714810553::1::::<><>::
-0_Hell_Knight_Jump Start_005.png::CompressedTexture2D::7123826096395720897::1714810551::1714810553::1::::<><>::
-::res://art/characters/knight/walk/::1714810553
-0_Hell_Knight_Walking_000.png::CompressedTexture2D::7111218829291477883::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_001.png::CompressedTexture2D::5770562194040331521::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_002.png::CompressedTexture2D::3582577294121208572::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_003.png::CompressedTexture2D::3032090479708778937::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_004.png::CompressedTexture2D::5320824347749016842::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_005.png::CompressedTexture2D::5720436949226477130::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_006.png::CompressedTexture2D::3920841727818583329::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_007.png::CompressedTexture2D::2431568763395523421::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_008.png::CompressedTexture2D::5508504203570231491::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_009.png::CompressedTexture2D::4909313398803866455::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_010.png::CompressedTexture2D::4698381427198040027::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_011.png::CompressedTexture2D::4201336498690182227::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_012.png::CompressedTexture2D::7946018375335671826::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_013.png::CompressedTexture2D::819993593006032112::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_014.png::CompressedTexture2D::4578188677284431499::1714810552::1714810553::1::::<><>::
-0_Hell_Knight_Walking_015.png::CompressedTexture2D::2090150357519254531::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_016.png::CompressedTexture2D::6623222615292107954::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_017.png::CompressedTexture2D::3452071788259380947::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_018.png::CompressedTexture2D::1594743441598917167::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_019.png::CompressedTexture2D::5270610742419043971::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_020.png::CompressedTexture2D::8634236231194615028::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_021.png::CompressedTexture2D::7660858080407940415::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_022.png::CompressedTexture2D::6526689574676981209::1714810552::1714810552::1::::<><>::
-0_Hell_Knight_Walking_023.png::CompressedTexture2D::8296131998160049085::1714810552::1714810552::1::::<><>::
-::res://art/objects/::1714810552
-Chest_01_Locked.png::CompressedTexture2D::2524452477077391723::1714810552::1714810552::1::::<><>::
-Chest_01_Unlocked.png::CompressedTexture2D::6150948003586275912::1714810552::1714810552::1::::<><>::
-Door_01.png::CompressedTexture2D::2865254350156543700::1714810552::1714810552::1::::<><>::
-Key_01.png::CompressedTexture2D::9024683125597014413::1714810552::1714810552::1::::<><>::
-Pillar_01.png::CompressedTexture2D::6235639555813489963::1714810552::1714810552::1::::<><>::
-Pillar_02.png::CompressedTexture2D::2155222541850268636::1714810552::1714810552::1::::<><>::
-Wooden_Crate.png::CompressedTexture2D::1206307682022880831::1714810552::1714810552::1::::<><>::
-::res://art/platforms/::1714810552
-Platformer_spritesheet.png::CompressedTexture2D::5309644184699564809::1714810552::1714810552::1::::<><>::
-::res://levels/::1714812110
-level_01.tscn::PackedScene::8817124753593908374::1714812333::0::1::::<><>::uid://chwbcf7n2ajtp::::res://art/platforms/Platformer_spritesheet.png<>uid://clwa54x3i7mun::::res://player.tscn
-::res://player/::1714812241
-player.gd::GDScript::-1::1714812329::0::1::::<>CharacterBody2D<>::
+::res://::1714986693
+icon.svg::CompressedTexture2D::3245725711737571871::1714918571::1714918614::1::::<><>::
+::res://art/::1714918571
+::res://art/backgrounds/::1714918571
+background_01.png::CompressedTexture2D::3019678118322707430::1714918571::1714918571::1::::<><>::
+background_02.png::CompressedTexture2D::3810226732136760820::1714918571::1714918571::1::::<><>::
+::res://art/characters/::1714918571
+::res://art/characters/character_marker/::1714918571
+Player Finder.png::CompressedTexture2D::1504954788881706945::1714918571::1714918571::1::::<><>::
+Player_Finder.png::CompressedTexture2D::2132703831188231701::1714918571::1714918571::1::::<><>::
+::res://art/characters/elf/::1714918571
+::res://art/characters/elf/double_jump_start/::1714918571
+0_Dark_Elves_Double Jump_000.png::CompressedTexture2D::5573370004347941243::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Double Jump_001.png::CompressedTexture2D::979267534045021115::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Double Jump_002.png::CompressedTexture2D::758679003405157885::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Double Jump_003.png::CompressedTexture2D::6413260044746200743::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Double Jump_004.png::CompressedTexture2D::3360061718327064706::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Double Jump_005.png::CompressedTexture2D::2822570740401204862::1714918571::1714918571::1::::<><>::
+::res://art/characters/elf/fall/::1714918571
+0_Dark_Elves_Falling Down_000.png::CompressedTexture2D::3737554096700525140::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Falling Down_001.png::CompressedTexture2D::6854808918027554858::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Falling Down_002.png::CompressedTexture2D::7530011834471478633::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Falling Down_003.png::CompressedTexture2D::3153725742914396939::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Falling Down_004.png::CompressedTexture2D::4256369489294816997::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Falling Down_005.png::CompressedTexture2D::5839801526720539798::1714918571::1714918571::1::::<><>::
+::res://art/characters/elf/idle/::1714918571
+0_Dark_Elves_Idle_000.png::CompressedTexture2D::5353121696464233916::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_001.png::CompressedTexture2D::3127803835578829308::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_002.png::CompressedTexture2D::3465021549532013494::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_003.png::CompressedTexture2D::1508818664048271268::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_004.png::CompressedTexture2D::2953930983565636023::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_005.png::CompressedTexture2D::4144047736532660428::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_006.png::CompressedTexture2D::954004331845913579::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_007.png::CompressedTexture2D::8999359374748013164::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_008.png::CompressedTexture2D::3958806319764772827::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_009.png::CompressedTexture2D::2985854983595416011::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_010.png::CompressedTexture2D::2209981845394816988::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_011.png::CompressedTexture2D::6365693940974206460::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_012.png::CompressedTexture2D::8757778144247274610::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_013.png::CompressedTexture2D::3896048341377478836::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_014.png::CompressedTexture2D::2463103741222074467::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_015.png::CompressedTexture2D::8986800813566907537::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_016.png::CompressedTexture2D::4746630660714023569::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Idle_017.png::CompressedTexture2D::4991843509965305431::1714918571::1714918571::1::::<><>::
+::res://art/characters/elf/jump/::1714918571
+0_Dark_Elves_Jump Loop_000.png::CompressedTexture2D::1472417248914530292::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Loop_001.png::CompressedTexture2D::1844900523130883117::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Loop_002.png::CompressedTexture2D::2872147544510941736::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Loop_003.png::CompressedTexture2D::7854625540396155898::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Loop_004.png::CompressedTexture2D::2646570411523484044::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Loop_005.png::CompressedTexture2D::4035090069980896081::1714918571::1714918571::1::::<><>::
+::res://art/characters/elf/jump_start/::1714918571
+0_Dark_Elves_Jump Start_000.png::CompressedTexture2D::1246788291139256478::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Start_001.png::CompressedTexture2D::4019392107064053916::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Start_002.png::CompressedTexture2D::3058114534446220047::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Start_003.png::CompressedTexture2D::3114361928115945337::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Start_004.png::CompressedTexture2D::792818512402967121::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Jump Start_005.png::CompressedTexture2D::5617855879685841052::1714918571::1714918571::1::::<><>::
+::res://art/characters/elf/walk/::1714918571
+0_Dark_Elves_Walking_000.png::CompressedTexture2D::4805523646245578894::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_001.png::CompressedTexture2D::7988426779487355897::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_002.png::CompressedTexture2D::2488968352716608625::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_003.png::CompressedTexture2D::8788042745242066598::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_004.png::CompressedTexture2D::258186166919576867::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_005.png::CompressedTexture2D::6548985904770377445::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_006.png::CompressedTexture2D::7180372793181819338::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_007.png::CompressedTexture2D::8427874900695647467::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_008.png::CompressedTexture2D::7402684994486049201::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_009.png::CompressedTexture2D::5944753037009915871::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_010.png::CompressedTexture2D::4527998906329947777::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_011.png::CompressedTexture2D::6760772926945986526::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_012.png::CompressedTexture2D::223345262598859817::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_013.png::CompressedTexture2D::8727212376250659793::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_014.png::CompressedTexture2D::8697736306676772445::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_015.png::CompressedTexture2D::3774501321549834275::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_016.png::CompressedTexture2D::3909877296998094256::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_017.png::CompressedTexture2D::7032259615290094043::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_018.png::CompressedTexture2D::6292826423555122273::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_019.png::CompressedTexture2D::6122329030622755778::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_020.png::CompressedTexture2D::9211247941664259795::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_021.png::CompressedTexture2D::2496276079359703275::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_022.png::CompressedTexture2D::4700134004615604305::1714918571::1714918571::1::::<><>::
+0_Dark_Elves_Walking_023.png::CompressedTexture2D::6704781805076386714::1714918571::1714918571::1::::<><>::
+::res://art/characters/knight/::1714918571
+::res://art/characters/knight/fall/::1714918571
+0_Hell_Knight_Falling Down_000.png::CompressedTexture2D::3035133607936192914::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Falling Down_001.png::CompressedTexture2D::1620392575329788872::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Falling Down_002.png::CompressedTexture2D::8146993914898076656::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Falling Down_003.png::CompressedTexture2D::7074716957355900986::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Falling Down_004.png::CompressedTexture2D::1420605500288059284::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Falling Down_005.png::CompressedTexture2D::5304583762793544114::1714918571::1714918571::1::::<><>::
+::res://art/characters/knight/idle/::1714918571
+0_Hell_Knight_Idle_000.png::CompressedTexture2D::4283590624464005595::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_001.png::CompressedTexture2D::3193470818525752576::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_002.png::CompressedTexture2D::7892240328076409689::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_003.png::CompressedTexture2D::2979678922222704619::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_004.png::CompressedTexture2D::4605427552370314304::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_005.png::CompressedTexture2D::8971483191729344943::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_006.png::CompressedTexture2D::6325455728508956792::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_007.png::CompressedTexture2D::7192143945817049757::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_008.png::CompressedTexture2D::8365497838186826349::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_009.png::CompressedTexture2D::1513392045423436923::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_010.png::CompressedTexture2D::6209341308676761531::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_011.png::CompressedTexture2D::4590916644489020114::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_012.png::CompressedTexture2D::9066181148670033804::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_013.png::CompressedTexture2D::6968167101555557475::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_014.png::CompressedTexture2D::1563779447719311916::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_015.png::CompressedTexture2D::8009321504194556656::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_016.png::CompressedTexture2D::3639139923656979262::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Idle_017.png::CompressedTexture2D::8459187160369657143::1714918571::1714918571::1::::<><>::
+::res://art/characters/knight/jump/::1714918571
+0_Hell_Knight_Jump Loop_000.png::CompressedTexture2D::8075166202744917365::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Loop_001.png::CompressedTexture2D::6839553407435898415::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Loop_002.png::CompressedTexture2D::1826829503188584467::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Loop_003.png::CompressedTexture2D::4136545573615988347::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Loop_004.png::CompressedTexture2D::8326362873684219275::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Loop_005.png::CompressedTexture2D::5087614432235974::1714918571::1714918571::1::::<><>::
+::res://art/characters/knight/jump_start/::1714918571
+0_Hell_Knight_Jump Start_000.png::CompressedTexture2D::2865560888784699787::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Start_001.png::CompressedTexture2D::2270419585724041688::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Start_002.png::CompressedTexture2D::7375900629144591852::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Start_003.png::CompressedTexture2D::6947425726206599776::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Start_004.png::CompressedTexture2D::6031489291763210439::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Jump Start_005.png::CompressedTexture2D::7123826096395720897::1714918571::1714918571::1::::<><>::
+::res://art/characters/knight/walk/::1714918571
+0_Hell_Knight_Walking_000.png::CompressedTexture2D::7111218829291477883::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_001.png::CompressedTexture2D::5770562194040331521::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_002.png::CompressedTexture2D::3582577294121208572::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_003.png::CompressedTexture2D::3032090479708778937::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_004.png::CompressedTexture2D::5320824347749016842::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_005.png::CompressedTexture2D::5720436949226477130::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_006.png::CompressedTexture2D::3920841727818583329::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_007.png::CompressedTexture2D::2431568763395523421::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_008.png::CompressedTexture2D::5508504203570231491::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_009.png::CompressedTexture2D::4909313398803866455::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_010.png::CompressedTexture2D::4698381427198040027::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_011.png::CompressedTexture2D::4201336498690182227::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_012.png::CompressedTexture2D::7946018375335671826::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_013.png::CompressedTexture2D::819993593006032112::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_014.png::CompressedTexture2D::4578188677284431499::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_015.png::CompressedTexture2D::2090150357519254531::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_016.png::CompressedTexture2D::6623222615292107954::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_017.png::CompressedTexture2D::3452071788259380947::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_018.png::CompressedTexture2D::1594743441598917167::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_019.png::CompressedTexture2D::5270610742419043971::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_020.png::CompressedTexture2D::8634236231194615028::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_021.png::CompressedTexture2D::7660858080407940415::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_022.png::CompressedTexture2D::6526689574676981209::1714918571::1714918571::1::::<><>::
+0_Hell_Knight_Walking_023.png::CompressedTexture2D::8296131998160049085::1714918571::1714918571::1::::<><>::
+::res://art/objects/::1714918571
+Chest_01_Locked.png::CompressedTexture2D::2524452477077391723::1714918571::1714918571::1::::<><>::
+Chest_01_Unlocked.png::CompressedTexture2D::6150948003586275912::1714918571::1714918571::1::::<><>::
+Door_01.png::CompressedTexture2D::2865254350156543700::1714918571::1714918571::1::::<><>::
+Key_01.png::CompressedTexture2D::9024683125597014413::1714918571::1714918571::1::::<><>::
+Pillar_01.png::CompressedTexture2D::6235639555813489963::1714918571::1714918571::1::::<><>::
+Pillar_02.png::CompressedTexture2D::2155222541850268636::1714918571::1714918571::1::::<><>::
+Wooden_Crate.png::CompressedTexture2D::1206307682022880831::1714918571::1714918571::1::::<><>::
+::res://art/platforms/::1714918571
+Platformer_spritesheet.png::CompressedTexture2D::5309644184699564809::1714918571::1714918571::1::::<><>::
+::res://levels/::1714918618
+level_01.tscn::PackedScene::8817124753593908374::1714918618::0::1::::<><>::uid://chwbcf7n2ajtp::::res://art/platforms/Platformer_spritesheet.png<>uid://clwa54x3i7mun::::res://player/player.tscn
+::res://player/::1714918618
+player.gd::GDScript::-1::1714918571::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5590390091802830885::1714918618::0::1::::<><>::uid://cln1ubxiy43oh::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_000.png<>res://player/player.gd<>uid://n7mnms3u3wjr::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_001.png<>uid://k2rlkgmf0qqf::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_002.png<>uid://cxmvprctwqect::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_003.png<>uid://bn4vyw1tvbcfy::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_004.png<>uid://bghjle3m5kfyk::::res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_005.png<>uid://btiq78hksne3e::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_000.png<>uid://c4wrx32bcp5na::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_001.png<>uid://dfjugvfb2u86x::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_002.png<>uid://bk6xnw75aft36::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_003.png<>uid://b1v21v4uyx2ab::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_004.png<>uid://cpg3xbxy3my35::::res://art/characters/elf/fall/0_Dark_Elves_Falling Down_005.png<>uid://cijdeq4s63sbc::::res://art/characters/elf/idle/0_Dark_Elves_Idle_000.png<>uid://bkteqb4eah0qa::::res://art/characters/elf/idle/0_Dark_Elves_Idle_001.png<>uid://bpmqns4rq7i6y::::res://art/characters/elf/idle/0_Dark_Elves_Idle_002.png<>uid://vq5a1sisnh85::::res://art/characters/elf/idle/0_Dark_Elves_Idle_003.png<>uid://bic52uma20jil::::res://art/characters/elf/idle/0_Dark_Elves_Idle_004.png<>uid://b0bn4jbu6kaj1::::res://art/characters/elf/idle/0_Dark_Elves_Idle_005.png<>uid://nuekuvomd62b::::res://art/characters/elf/idle/0_Dark_Elves_Idle_006.png<>uid://d1hmes836ehpc::::res://art/characters/elf/idle/0_Dark_Elves_Idle_007.png<>uid://bwnw7xytiba40::::res://art/characters/elf/idle/0_Dark_Elves_Idle_008.png<>uid://bismuihjshd1t::::res://art/characters/elf/idle/0_Dark_Elves_Idle_009.png<>uid://6qscwkc5n2dc::::res://art/characters/elf/idle/0_Dark_Elves_Idle_010.png<>uid://cwxubw3rnrlrw::::res://art/characters/elf/idle/0_Dark_Elves_Idle_011.png<>uid://dw1lldpc4oyrq::::res://art/characters/elf/idle/0_Dark_Elves_Idle_012.png<>uid://bvrjl2da0odg3::::res://art/characters/elf/idle/0_Dark_Elves_Idle_013.png<>uid://bbde7uk4pareh::::res://art/characters/elf/idle/0_Dark_Elves_Idle_014.png<>uid://d1bjkcwfimqcn::::res://art/characters/elf/idle/0_Dark_Elves_Idle_015.png<>uid://b8vkkwnoxwyib::::res://art/characters/elf/idle/0_Dark_Elves_Idle_016.png<>uid://cdec6y5diqr24::::res://art/characters/elf/idle/0_Dark_Elves_Idle_017.png<>uid://u8iq5q1t542k::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_000.png<>uid://1jxih3omnplt::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_001.png<>uid://bg6j36dnaqa3q::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_002.png<>uid://dj53sgsuhjs8y::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_003.png<>uid://bdyavl8jb5osq::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_004.png<>uid://bxqvlxtm0b4s8::::res://art/characters/elf/jump/0_Dark_Elves_Jump Loop_005.png<>uid://r07okw4p4exi::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_000.png<>uid://bxja2hxgf0hku::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_001.png<>uid://bjtmx1ysh2qf4::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_002.png<>uid://bkmvc6l4rvu5v::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_003.png<>uid://lkbutps4vli4::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_004.png<>uid://cmblja8sum4ea::::res://art/characters/elf/jump_start/0_Dark_Elves_Jump Start_005.png<>uid://cap3ji30vpkpa::::res://art/characters/elf/walk/0_Dark_Elves_Walking_000.png<>uid://dl2whss56pv5b::::res://art/characters/elf/walk/0_Dark_Elves_Walking_001.png<>uid://bbpw7etipn578::::res://art/characters/elf/walk/0_Dark_Elves_Walking_002.png<>uid://dxg81r0w8cq3o::::res://art/characters/elf/walk/0_Dark_Elves_Walking_003.png<>uid://dxcj2pfbkbc2::::res://art/characters/elf/walk/0_Dark_Elves_Walking_004.png<>uid://c0km3uh7lyt4p::::res://art/characters/elf/walk/0_Dark_Elves_Walking_005.png<>uid://dakhxqux3pyny::::res://art/characters/elf/walk/0_Dark_Elves_Walking_006.png<>uid://dscr4r0esnaml::::res://art/characters/elf/walk/0_Dark_Elves_Walking_007.png<>uid://ddp6e1g42swwn::::res://art/characters/elf/walk/0_Dark_Elves_Walking_008.png<>uid://cqxxhjmjscb1x::::res://art/characters/elf/walk/0_Dark_Elves_Walking_009.png<>uid://b5rnqlnfbpeaj::::res://art/characters/elf/walk/0_Dark_Elves_Walking_010.png<>uid://c3k77bl7h8k83::::res://art/characters/elf/walk/0_Dark_Elves_Walking_011.png<>uid://dggp1g6ic4rd::::res://art/characters/elf/walk/0_Dark_Elves_Walking_012.png<>uid://dwlr6bfykskfp::::res://art/characters/elf/walk/0_Dark_Elves_Walking_013.png<>uid://dv6ipf3chsuy4::::res://art/characters/elf/walk/0_Dark_Elves_Walking_014.png<>uid://bt1nqranyldp8::::res://art/characters/elf/walk/0_Dark_Elves_Walking_015.png<>uid://bvx8dwwui31g3::::res://art/characters/elf/walk/0_Dark_Elves_Walking_016.png<>uid://c7gqj2o04sxlj::::res://art/characters/elf/walk/0_Dark_Elves_Walking_017.png<>uid://cvwj6xfth7mt2::::res://art/characters/elf/walk/0_Dark_Elves_Walking_018.png<>uid://cthx4nsid3vvu::::res://art/characters/elf/walk/0_Dark_Elves_Walking_019.png<>uid://d4h854o6jfsk6::::res://art/characters/elf/walk/0_Dark_Elves_Walking_020.png<>uid://bbthkjqiq33il::::res://art/characters/elf/walk/0_Dark_Elves_Walking_021.png<>uid://b771rxse6n114::::res://art/characters/elf/walk/0_Dark_Elves_Walking_022.png<>uid://c2r31n6lj0pks::::res://art/characters/elf/walk/0_Dark_Elves_Walking_023.png
