@@ -1,0 +1,116 @@
+[gd_scene load_steps=6 format=3 uid="uid://7xv7xu4gnayu"]
+
+[ext_resource type="Texture2D" uid="uid://bja0wl8tcw71c" path="res://art/backgrounds/background_01.png" id="1_a13lg"]
+[ext_resource type="Script" path="res://levels/menu/menu.gd" id="1_cnl3a"]
+[ext_resource type="PackedScene" uid="uid://dxvc0yrhxo7ig" path="res://levels/level_01/level_01.tscn" id="2_abqs7"]
+[ext_resource type="Texture2D" uid="uid://bujx43rcy5b85" path="res://art/backgrounds/background_02.png" id="2_dwhdg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_i0j03"]
+font_size = 64
+
+[node name="Menu" type="Node" node_paths=PackedStringArray("ui", "level_container", "ip_line_edit", "status_label", "not_connected_hbox", "host_hbox")]
+script = ExtResource("1_cnl3a")
+ui = NodePath("UI")
+level_container = NodePath("Level")
+level_scene = ExtResource("2_abqs7")
+ip_line_edit = NodePath("UI/NotConnectedHBox/LineEdit")
+status_label = NodePath("UI/StatusLabel")
+not_connected_hbox = NodePath("UI/NotConnectedHBox")
+host_hbox = NodePath("UI/HostHbox")
+
+[node name="Level" type="Node" parent="."]
+
+[node name="LevelSpawner" type="MultiplayerSpawner" parent="."]
+_spawnable_scenes = PackedStringArray("res://levels/level_01/level_01.tscn")
+spawn_path = NodePath("../Level")
+spawn_limit = 1
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BackgroundTrees" type="TextureRect" parent="UI"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_a13lg")
+expand_mode = 2
+stretch_mode = 4
+
+[node name="BackgroundHouses" type="TextureRect" parent="UI/BackgroundTrees"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_dwhdg")
+expand_mode = 2
+stretch_mode = 4
+
+[node name="NotConnectedHBox" type="HBoxContainer" parent="UI"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 720.0
+offset_bottom = 62.0
+
+[node name="HostButton" type="Button" parent="UI/NotConnectedHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Host
+"
+
+[node name="JoinButton" type="Button" parent="UI/NotConnectedHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Join
+"
+
+[node name="LineEdit" type="LineEdit" parent="UI/NotConnectedHBox"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "127.0.0.1"
+placeholder_text = "Enter IP address"
+
+[node name="HostHbox" type="HBoxContainer" parent="UI"]
+visible = false
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 315.0
+offset_bottom = 62.0
+
+[node name="StartButton" type="Button" parent="UI/HostHbox"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Start
+"
+
+[node name="StatusLabel" type="Label" parent="UI"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -44.0
+offset_top = -11.5
+offset_right = 44.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Connecting"
+label_settings = SubResource("LabelSettings_i0j03")
+
+[connection signal="pressed" from="UI/NotConnectedHBox/HostButton" to="." method="_on_host_button_pressed"]
+[connection signal="pressed" from="UI/NotConnectedHBox/JoinButton" to="." method="_on_join_button_pressed"]
+[connection signal="pressed" from="UI/HostHbox/StartButton" to="." method="_on_start_button_pressed"]

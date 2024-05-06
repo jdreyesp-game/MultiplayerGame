@@ -2,3 +2,8 @@ res://levels/level_01.tscn
 res://player/player.gd
 res://player/player.tscn
 res://player/player_camera.tscn
+res://levels/menu/menu.tscn
+res://levels/level_01/level_01.tscn
+res://levels/menu/menu.gd
+res://lobby.gd
+res://levels/level.gd

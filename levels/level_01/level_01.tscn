@@ -1,12 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://dxvc0yrhxo7ig"]
+[gd_scene load_steps=8 format=3 uid="uid://dxvc0yrhxo7ig"]
 
-[ext_resource type="Texture2D" uid="uid://chwbcf7n2ajtp" path="res://art/platforms/Platformer_spritesheet.png" id="1_hxoub"]
-[ext_resource type="PackedScene" uid="uid://clwa54x3i7mun" path="res://player/player.tscn" id="2_crw61"]
-[ext_resource type="Texture2D" uid="uid://bja0wl8tcw71c" path="res://art/backgrounds/background_01.png" id="2_oebjm"]
-[ext_resource type="Texture2D" uid="uid://bujx43rcy5b85" path="res://art/backgrounds/background_02.png" id="3_i0gpm"]
+[ext_resource type="Script" path="res://levels/level.gd" id="1_0p6ud"]
+[ext_resource type="Texture2D" uid="uid://chwbcf7n2ajtp" path="res://art/platforms/Platformer_spritesheet.png" id="1_augpo"]
+[ext_resource type="Texture2D" uid="uid://bja0wl8tcw71c" path="res://art/backgrounds/background_01.png" id="2_no1s1"]
+[ext_resource type="Texture2D" uid="uid://bujx43rcy5b85" path="res://art/backgrounds/background_02.png" id="3_6goat"]
+[ext_resource type="PackedScene" uid="uid://clwa54x3i7mun" path="res://player/player.tscn" id="4_2bnqv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3xirn"]
-texture = ExtResource("1_hxoub")
+texture = ExtResource("1_augpo")
 texture_region_size = Vector2i(128, 128)
 0:0/0 = 0
 0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
@@ -69,7 +70,11 @@ physics_layer_0/collision_layer = 1
 physics_layer_0/collision_mask = 0
 sources/0 = SubResource("TileSetAtlasSource_3xirn")
 
-[node name="Level_01" type="Node2D"]
+[node name="Level_01" type="Node2D" node_paths=PackedStringArray("players_container", "spawn_points")]
+script = ExtResource("1_0p6ud")
+players_container = NodePath("----- Players -----/PlayersContainer")
+player_scene = ExtResource("4_2bnqv")
+spawn_points = [NodePath("----- Players -----/SpawnPoint_0"), NodePath("----- Players -----/SpawnPoint_1")]
 
 [node name="----- Environment -----" type="Node" parent="."]
 
@@ -88,7 +93,7 @@ motion_mirroring = Vector2(1334, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="----- Environment -----/ParallaxBackground/ParallaxTrees"]
 position = Vector2(-199, -165)
-texture = ExtResource("2_oebjm")
+texture = ExtResource("2_no1s1")
 centered = false
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="----- Environment -----/ParallaxBackground"]
@@ -97,11 +102,20 @@ motion_mirroring = Vector2(1334, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="----- Environment -----/ParallaxBackground/ParallaxLayer"]
 position = Vector2(-202, -166)
-texture = ExtResource("3_i0gpm")
+texture = ExtResource("3_6goat")
 centered = false
 
 [node name="----- Players -----" type="Node" parent="."]
 
-[node name="Player" parent="----- Players -----" instance=ExtResource("2_crw61")]
-position = Vector2(598, 571)
-max_jumps = 3
+[node name="PlayersContainer" type="Node2D" parent="----- Players -----"]
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="----- Players -----"]
+_spawnable_scenes = PackedStringArray("res://player/player.tscn")
+spawn_path = NodePath("../PlayersContainer")
+spawn_limit = 2
+
+[node name="SpawnPoint_0" type="Node2D" parent="----- Players -----"]
+position = Vector2(170, 518)
+
+[node name="SpawnPoint_1" type="Node2D" parent="----- Players -----"]
+position = Vector2(312, 522)
