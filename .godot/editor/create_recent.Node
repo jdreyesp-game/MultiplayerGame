@@ -1,8 +1,9 @@
 MultiplayerSynchronizer
-Node
-CollisionShape2D
-Area2D
 Sprite2D
+CollisionShape2D
+StaticBody2D
+Node
+Area2D
 Node2D
 MultiplayerSpawner
 Label
@@ -11,4 +12,3 @@ Button
 HBoxContainer
 TextureRect
 ParallaxLayer
-ParallaxBackground

@@ -4,3 +4,5 @@ res://player/player.tscn
 res://player/player_camera.tscn
 res://interactibles/pressure_plate/pressure_plate.tscn
 res://interactibles/pressure_plate/pressure_plate.gd
+res://interactibles/door/door.tscn
+res://interactibles/door/door.gd
