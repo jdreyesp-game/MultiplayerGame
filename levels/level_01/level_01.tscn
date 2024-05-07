@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://dxvc0yrhxo7ig"]
+[gd_scene load_steps=9 format=3 uid="uid://dxvc0yrhxo7ig"]
 
 [ext_resource type="Script" path="res://levels/level.gd" id="1_0p6ud"]
 [ext_resource type="Texture2D" uid="uid://chwbcf7n2ajtp" path="res://art/platforms/Platformer_spritesheet.png" id="1_augpo"]
 [ext_resource type="Texture2D" uid="uid://bja0wl8tcw71c" path="res://art/backgrounds/background_01.png" id="2_no1s1"]
 [ext_resource type="Texture2D" uid="uid://bujx43rcy5b85" path="res://art/backgrounds/background_02.png" id="3_6goat"]
 [ext_resource type="PackedScene" uid="uid://clwa54x3i7mun" path="res://player/player.tscn" id="4_2bnqv"]
+[ext_resource type="PackedScene" uid="uid://b4m6llk0ll2f" path="res://interactibles/pressure_plate/pressure_plate.tscn" id="6_3x4u6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3xirn"]
 texture = ExtResource("1_augpo")
@@ -104,6 +105,11 @@ motion_mirroring = Vector2(1334, 0)
 position = Vector2(-202, -166)
 texture = ExtResource("3_6goat")
 centered = false
+
+[node name="----- Interactibles ------" type="Node" parent="."]
+
+[node name="PressurePlate" parent="----- Interactibles ------" instance=ExtResource("6_3x4u6")]
+position = Vector2(211, 575)
 
 [node name="----- Players -----" type="Node" parent="."]
 
