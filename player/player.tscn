@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cln1ubxiy43oh" path="res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_000.png" id="1_df27k"]
 [ext_resource type="Script" path="res://player/player.gd" id="1_rr5om"]
-[ext_resource type="PackedScene" uid="uid://b4f4nxrmm4x7o" path="res://player/player_camera.tscn" id="2_0u8ys"]
+[ext_resource type="PackedScene" path="res://player/player_camera.tscn" id="2_0u8ys"]
 [ext_resource type="Texture2D" uid="uid://n7mnms3u3wjr" path="res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_001.png" id="2_juwql"]
 [ext_resource type="Texture2D" uid="uid://k2rlkgmf0qqf" path="res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_002.png" id="3_u0chr"]
 [ext_resource type="Texture2D" uid="uid://cxmvprctwqect" path="res://art/characters/elf/double_jump_start/0_Dark_Elves_Double Jump_003.png" id="4_6vo40"]

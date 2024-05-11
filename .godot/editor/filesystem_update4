@@ -1,9 +1,7 @@
-res://levels/level_01/level_01.tscn
 res://interactibles/pressure_plate/pressure_plate.gd
 res://player/player.tscn
-res://player/player_camera.tscn
-res://interactibles/pressure_plate/pressure_plate.tscn
-res://interactibles/door/door.tscn
 res://interactibles/chest/chest.tscn
-res://interactibles/door/door.gd
+res://levels/level_01.tscn
+res://levels/level_01/level_01.tscn
 res://interactibles/chest/chest.gd
+res://interactibles/door/door.tscn
