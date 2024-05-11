@@ -8,7 +8,7 @@ extends Node2D
 
 @export var is_locked: bool = true
 
-func activate(state):
+func activate(_state):
 	is_locked = false
 	open_chest()
 	

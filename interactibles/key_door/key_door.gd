@@ -9,7 +9,7 @@ extends Node2D
 func _on_open_area_area_entered(area):
 	is_opened = true
 	set_visible_properties()
-	area.get_parent().queue_free()
+	area.get_owner().queue_free()
 
 func set_visible_properties():
 	door_closed.visible = !is_opened
