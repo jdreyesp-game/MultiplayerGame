@@ -10,7 +10,7 @@ size = Vector2(35, 320)
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_ulixn"]
 properties/0/path = NodePath(".:is_open")
 properties/0/spawn = true
-properties/0/replication_mode = 1
+properties/0/replication_mode = 2
 
 [node name="Door" type="Node2D" node_paths=PackedStringArray("door_open", "door_closed", "collider")]
 script = ExtResource("1_uxhls")
@@ -38,4 +38,4 @@ texture = ExtResource("3_c5uh3")
 [node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
 replication_config = SubResource("SceneReplicationConfig_ulixn")
 
-[connection signal="synchronized" from="MultiplayerSynchronizer" to="." method="_on_multiplayer_synchronizer_synchronized"]
+[connection signal="delta_synchronized" from="MultiplayerSynchronizer" to="." method="_on_multiplayer_synchronizer_delta_synchronized"]

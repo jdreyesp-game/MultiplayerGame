@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://b2tus6bpykn34"]
+
+[ext_resource type="Texture2D" uid="uid://bb74mmf3rdg4r" path="res://art/objects/Chest_01_Locked.png" id="1_68l3i"]
+[ext_resource type="Script" path="res://interactibles/chest/chest.gd" id="1_bf7b2"]
+[ext_resource type="Texture2D" uid="uid://ctvthkqtgqmgm" path="res://art/objects/Chest_01_Unlocked.png" id="2_28y13"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bydrc"]
+size = Vector2(52, 41)
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_k74gc"]
+properties/0/path = NodePath(".:is_locked")
+properties/0/spawn = true
+properties/0/replication_mode = 2
+
+[node name="Chest" type="Node2D" node_paths=PackedStringArray("chest_locked", "chest_unlocked", "collider")]
+script = ExtResource("1_bf7b2")
+chest_locked = NodePath("ChestLocked")
+chest_unlocked = NodePath("ChestUnlocked")
+collider = NodePath("StaticBody2D/CollisionShape2D")
+
+[node name="ChestLocked" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, -29)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_68l3i")
+
+[node name="ChestUnlocked" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(2.08165e-12, -29)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_28y13")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-3, -21.5)
+shape = SubResource("RectangleShape2D_bydrc")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_k74gc")
+
+[connection signal="delta_synchronized" from="MultiplayerSynchronizer" to="." method="_on_multiplayer_synchronizer_delta_synchronized"]

@@ -18,6 +18,5 @@ func set_door_properties():
 	door_closed.visible = !is_open
 	collider.set_deferred("disabled", is_open)
 
-
-func _on_multiplayer_synchronizer_synchronized():
+func _on_multiplayer_synchronizer_delta_synchronized():
 	set_door_properties()
