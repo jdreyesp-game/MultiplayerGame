@@ -1,9 +1,9 @@
-Node2D
-MultiplayerSpawner
 MultiplayerSynchronizer
 CollisionShape2D
 Area2D
 Sprite2D
+Node2D
+MultiplayerSpawner
 StaticBody2D
 Node
 Label

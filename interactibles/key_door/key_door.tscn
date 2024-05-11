@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=3 uid="uid://b85px3u3qbrrg"]
+
+[ext_resource type="Texture2D" uid="uid://bg27k5sblx533" path="res://art/objects/Door_01.png" id="1_4i6j8"]
+[ext_resource type="Script" path="res://interactibles/key_door/key_door.gd" id="1_5g0lj"]
+
+[sub_resource type="Gradient" id="Gradient_o2cto"]
+offsets = PackedFloat32Array(0.993976, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_fa3xu"]
+gradient = SubResource("Gradient_o2cto")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pwf8w"]
+size = Vector2(73, 132)
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_3pqo0"]
+properties/0/path = NodePath(".:is_opened")
+properties/0/spawn = true
+properties/0/replication_mode = 2
+
+[node name="KeyDoor" type="Node2D" node_paths=PackedStringArray("open_area", "door_closed", "door_opened")]
+script = ExtResource("1_5g0lj")
+open_area = NodePath("OpenArea")
+door_closed = NodePath("DoorClosed")
+door_opened = NodePath("DoorOpened")
+
+[node name="DoorClosed" type="Sprite2D" parent="."]
+z_index = -100
+position = Vector2(0, -70)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("1_4i6j8")
+
+[node name="DoorOpened" type="Sprite2D" parent="."]
+visible = false
+z_index = -100
+position = Vector2(2, -67.5)
+scale = Vector2(1, 1.95312)
+texture = SubResource("GradientTexture2D_fa3xu")
+
+[node name="OpenArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="OpenArea"]
+position = Vector2(-0.5, -66)
+shape = SubResource("RectangleShape2D_pwf8w")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="."]
+replication_config = SubResource("SceneReplicationConfig_3pqo0")
+
+[connection signal="area_entered" from="OpenArea" to="." method="_on_open_area_area_entered"]
+[connection signal="body_entered" from="OpenArea" to="." method="_on_open_area_body_entered"]
+[connection signal="delta_synchronized" from="MultiplayerSynchronizer" to="." method="_on_multiplayer_synchronizer_delta_synchronized"]

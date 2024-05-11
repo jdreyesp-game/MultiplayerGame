@@ -13,13 +13,13 @@ func activate(state):
 	open_chest()
 	
 func open_chest():
-	collider.set_deferred("disabled", true)
 	if !is_locked:
 		var key = key_scene.instantiate()
 		key_spawn.add_child(key)
 		set_open_visible()
 
 func set_open_visible():
+	collider.set_deferred("disabled", true)
 	chest_locked.visible = false
 	chest_unlocked.visible = true
 

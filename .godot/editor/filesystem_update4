@@ -11,3 +11,5 @@ res://player/player.gd
 res://interactibles/key_door/key.tscn
 res://levels/menu/menu.tscn
 res://interactibles/key_door/key.gd
+res://interactibles/key_door/key_door.tscn
+res://interactibles/key_door/key_door.gd
