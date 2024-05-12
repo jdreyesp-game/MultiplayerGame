@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 @export var player_camera: PackedScene
 @export var camera_height = 316
+@export var player_finder: Node2D
 @export var player_sprite: AnimatedSprite2D
 
 @export var movement_speed = 300
@@ -73,7 +74,8 @@ func _physics_process(_delta):
 		var pushable = collision.get_collider() as PushableObject
 		if pushable == null:
 			continue
-		pushable.push(-collision.get_normal() * push_force, collision.get_position())
+		var point = collision.get_position() - pushable.global_position # This makes the offset for the push a little bit farther making the target pushable spin less
+		pushable.push(-collision.get_normal() * push_force, point)
 	
 	face_movement_direction(horizontal_input)
 
@@ -149,3 +151,11 @@ func _on_interaction_handler_area_entered(area):
 func _on_interaction_handler_area_exited(area):
 	if current_interactible == area:
 		current_interactible = null
+
+
+func _on_visible_on_screen_notifier_2d_screen_entered():
+	player_finder.visible = false
+
+
+func _on_visible_on_screen_notifier_2d_screen_exited():
+	player_finder.visible = true

@@ -13,3 +13,5 @@ res://interactibles/bridge/bridge.gd
 res://interactibles/pushable_objects/pushable_crate.tscn
 res://interactibles/pushable_objects/pushable_object.gd
 res://player/player.gd
+res://player/player_finder.tscn
+res://player/player_finder.gd
