@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dxvc0yrhxo7ig"]
+[gd_scene load_steps=14 format=3 uid="uid://dxvc0yrhxo7ig"]
 
 [ext_resource type="Script" path="res://levels/level.gd" id="1_0p6ud"]
 [ext_resource type="Texture2D" uid="uid://chwbcf7n2ajtp" path="res://art/platforms/Platformer_spritesheet.png" id="1_augpo"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://co16mh8fwuyff" path="res://interactibles/door/door.tscn" id="7_8f0w2"]
 [ext_resource type="PackedScene" uid="uid://b2tus6bpykn34" path="res://interactibles/chest/chest.tscn" id="8_jrpnt"]
 [ext_resource type="PackedScene" uid="uid://b85px3u3qbrrg" path="res://interactibles/key_door/key_door.tscn" id="9_44lnr"]
+[ext_resource type="PackedScene" uid="uid://mew1j1rj0i8u" path="res://interactibles/bridge/bridge.tscn" id="10_ufjth"]
+[ext_resource type="PackedScene" uid="uid://ogbpqnphxwvf" path="res://interactibles/pushable_objects/pushable_crate.tscn" id="11_30i1v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3xirn"]
 texture = ExtResource("1_augpo")
@@ -130,6 +132,9 @@ position = Vector2(972, 191)
 [node name="BridgePlate2" parent="----- Interactibles ------" instance=ExtResource("6_3x4u6")]
 position = Vector2(1091, 190)
 
+[node name="Bridge" parent="----- Interactibles ------" instance=ExtResource("10_ufjth")]
+position = Vector2(1406, 276)
+
 [node name="----- Players -----" type="Node" parent="."]
 
 [node name="PlayersContainer" type="Node2D" parent="----- Players -----"]
@@ -145,4 +150,9 @@ position = Vector2(170, 518)
 [node name="SpawnPoint_1" type="Node2D" parent="----- Players -----"]
 position = Vector2(312, 522)
 
+[node name="PushableCrate" parent="." instance=ExtResource("11_30i1v")]
+position = Vector2(802, 291)
+
 [connection signal="toggle" from="----- Interactibles ------/PressurePlate" to="----- Interactibles ------/Door" method="activate"]
+[connection signal="toggle" from="----- Interactibles ------/BridgePlate1" to="----- Interactibles ------/Bridge" method="activate"]
+[connection signal="toggle" from="----- Interactibles ------/BridgePlate2" to="----- Interactibles ------/Bridge" method="activate"]

@@ -8,3 +8,8 @@ res://levels/menu/menu.tscn
 res://interactibles/key_door/key.tscn
 res://interactibles/key_door/key_door.tscn
 res://interactibles/pressure_plate/pressure_plate.tscn
+res://interactibles/bridge/bridge.tscn
+res://interactibles/bridge/bridge.gd
+res://interactibles/pushable_objects/pushable_crate.tscn
+res://interactibles/pushable_objects/pushable_object.gd
+res://player/player.gd
