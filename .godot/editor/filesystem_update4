@@ -15,3 +15,5 @@ res://interactibles/pushable_objects/pushable_object.gd
 res://player/player.gd
 res://player/player_finder.tscn
 res://player/player_finder.gd
+res://interactibles/key_door/key.gd
+res://helper_functions.gd

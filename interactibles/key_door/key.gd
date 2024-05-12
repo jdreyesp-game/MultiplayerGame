@@ -1,7 +1,8 @@
 extends Node2D
 
 @export var follow_offset: Vector2
-@export var lerp_speed = 0.5
+@export var lerp_speed = 5
+@export var target_position: Vector2 = Vector2.INF
 
 var following_body: CharacterBody2D
 
@@ -20,5 +21,8 @@ func _process(delta):
 				following_body.global_position + follow_offset,  #origin. We put this so that lerp weight makes key closer when reaching 0
 				global_position, # destination. We put this so that lerp weight makes key farther when reaching 0
 				pow(0.5, delta * lerp_speed)) # Dynamic value based on 0.5 * (delta * lerp_speed), so this will be 0.5, then 0.25, then 0,0625, etc.
-
+			target_position = global_position
+	else:
+		global_position = HelperFunctions.ClientInterpolate(global_position, target_position, delta)
+		
 

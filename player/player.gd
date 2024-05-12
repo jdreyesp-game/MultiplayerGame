@@ -11,6 +11,8 @@ extends CharacterBody2D
 @export var max_jumps = 2
 @export var push_force = 10
 
+@export var target_position: Vector2 = Vector2.INF
+
 @onready var initial_sprite_scale = player_sprite.scale
 
 var owner_id = 1
@@ -40,12 +42,13 @@ func _enter_tree():
 		
 	set_up_camera()
 
-func _process(_delta):
+func _process(delta):
 	if multiplayer.multiplayer_peer == null:
 		return
 		
 	# If the owner_id is not me
 	if owner_id != multiplayer.get_unique_id():
+		global_position = HelperFunctions.ClientInterpolate(global_position, target_position, delta)
 		return
 		
 	update_camera_pos()
@@ -67,6 +70,8 @@ func _physics_process(_delta):
 	handle_movement_state()
 		
 	move_and_slide()
+	
+	target_position = global_position
 	
 	# We're managing pushables so that the multiplayer owner of pushables is only one, and the rest of the peers are being updated
 	for i in get_slide_collision_count():
