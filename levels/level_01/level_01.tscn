@@ -127,10 +127,8 @@ position = Vector2(1990, 261)
 [node name="BridgePlate1" parent="----- Interactibles ------" instance=ExtResource("6_3x4u6")]
 position = Vector2(972, 191)
 
-[node name="BridgePlate2" parent="----- Interactibles ------" node_paths=PackedStringArray("plate_up", "plate_down") instance=ExtResource("6_3x4u6")]
-position = Vector2(1092, 191)
-plate_up = NodePath("../BridgePlate1/PlateUp")
-plate_down = NodePath("../BridgePlate1/PlateDown")
+[node name="BridgePlate2" parent="----- Interactibles ------" instance=ExtResource("6_3x4u6")]
+position = Vector2(1091, 190)
 
 [node name="----- Players -----" type="Node" parent="."]
 
